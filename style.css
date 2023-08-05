@@ -1,0 +1,149 @@
+body {
+  background-color: black;
+}
+.cal {
+  /* padding: 40%; */
+  padding-top: -10%;
+  padding-left: 520px;
+  position: fixed;
+}
+.logo {
+  color: aliceblue;
+  display: flex;
+  padding-left: 445px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+/* .name{
+    text-align: center;
+  } */
+.pbtn {
+  width: 50px;
+  height: 50px;
+  color: rgb(172, 10, 37);
+  background-color: aqua;
+  font-size: large;
+}
+.pbtn:hover {
+  background-color: plum;
+  color: orange;
+}
+
+.mbtn {
+  width: 50px;
+  height: 50px;
+  color: rgb(172, 10, 37);
+  background-color: aqua;
+  font-size: large;
+}
+.mbtn:hover {
+  background-color: plum;
+  color: orange;
+}
+
+.abtn {
+  width: 50px;
+  height: 50px;
+  color: rgb(172, 10, 37);
+  background-color: aqua;
+  font-size: large;
+}
+.abtn:hover {
+  background-color: plum;
+  color: orange;
+}
+
+.sbtn {
+  width: 50px;
+  height: 50px;
+  color: rgb(172, 10, 37);
+  background-color: aqua;
+  font-size: large;
+}
+.sbtn:hover {
+  background-color: plum;
+  color: orange;
+}
+
+.tbtn {
+  width: 50px;
+  height: 50px;
+  color: rgb(172, 10, 37);
+  background-color: aqua;
+  font-size: x-large;
+}
+.btn:hover {
+  background-color: plum;
+  color: orange;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  color: rgb(25, 10, 110);
+  background-color: rgb(250, 239, 185);
+  font-size: large;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: rgb(233, 73, 14);
+}
+
+.dbtn {
+  width: 101px;
+  background-color: red;
+  color: rgb(135, 228, 228);
+  font-size: large;
+}
+#outputscreen {
+  height: 40px;
+  width: 205px;
+}
+.equal {
+  width: 102px;
+  font-size: large;
+}
+
+.logo {
+  position: relative;
+  font-size: 2vw;
+  color: brown;
+  -webkit-text: stroke 0.3vw yellow;
+  display: inline-block;
+  animation-name: texttype;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: forwards;
+  animation-play-state: running;
+  padding-left: 35%;
+}
+.logo::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 200%;
+  height: 80%;
+  color: black;
+  -webkit-text: stroke 0vw yellow;
+  border-right: 2px solid;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+  animation-duration: 3s;
+
+  animation-play-state: running;
+}
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100;
+    background-color: black;
+  }
+  100% {
+    left: 0;
+    background-color: black;
+  }
+}
